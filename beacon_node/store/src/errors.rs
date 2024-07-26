@@ -79,6 +79,7 @@ pub enum Error {
     ForwardsIterGap(DBColumn, Slot, Slot),
     StateShouldNotBeRequired(Slot),
     MissingBlock(Hash256),
+    DestructiveFreezerUpgrade,
 }
 
 pub trait HandleUnavailable<T> {
