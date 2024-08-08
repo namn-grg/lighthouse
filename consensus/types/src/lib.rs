@@ -49,6 +49,7 @@ pub mod fork_versioned_response;
 pub mod graffiti;
 pub mod historical_batch;
 pub mod historical_summary;
+pub mod inclusion_list;
 pub mod indexed_attestation;
 pub mod light_client_bootstrap;
 pub mod light_client_finality_update;
